@@ -8,6 +8,7 @@ import flixel.util.FlxColor;
 import flixel.effects.FlxFlicker;
 import lime.app.Application;
 import flixel.addons.transition.FlxTransitionableState;
+import flixel.fxstate
 import flixel.tweens.FlxTween;
 import flixel.util.FlxTimer;
 
