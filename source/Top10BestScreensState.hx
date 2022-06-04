@@ -36,6 +36,12 @@ class Top10BestScreensState extends MusicBeatState
     {
       FlxG.sound.play(Paths.sound('confirmManu'));
       MusicBeatState.switchState(new TitleState());
+      
+      if (FlxG.random.bool(6.0))
+				{
+					// kal dps de jogar uma partida do volley
+					MusicBeatState.switchState(new KalAfterPlayedVolley());
+				}
     }
     super.update(elapsed);
   }
