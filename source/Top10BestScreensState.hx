@@ -2,7 +2,7 @@ package;
 
 import flixel.FlxSprite;
 import flixel.FlxG;
-import flixel.FlxSubState;
+import flixel.FlxState;
 import flixel.text.FlxText;
 import flixel.util.FlxColor;
 import flixel.effects.FlxFlicker;
